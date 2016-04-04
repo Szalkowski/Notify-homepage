@@ -114,7 +114,6 @@ header{
 .headText h1{
 	font-family: 'Gochi Hand', cursive;
 	font-size:60px;
-	
 }
 .headText h1:after{
 	content:".";
@@ -123,6 +122,7 @@ header{
 .headText p{
 font-family: 'Roboto', sans-serif;
 font-size:24px;
+line-height:36px;
 font-weight:500;
 width:431px;
 }
@@ -176,8 +176,9 @@ li.mobile:hover{
 	text-align:center;
 }
 .firstContent p{
-	font-family: 'Arial', sans-serif;
+	font-family: "Arial", sans-serif;
 	font-size:16px;
+	line-height:26px;
 	color:#848484;
 	
 }
@@ -230,9 +231,13 @@ li.mobile:hover{
 .secondContent h2{
 	font-family: 'Roboto', sans-serif;
 	font-size:22px;
+	line-height:26px;
 	padding-top:60px;
 }
 .secondContent p{
+	font-family: "Arial", sans-serif;
+	font-size:16px;
+	line-height:26px;
 	width:550px;
 	color:#848484;
 }
@@ -269,7 +274,10 @@ li.mobile:hover{
 }
 .thirdContent p{
 	margin:60px auto 0;
-	width:785px;
+	font-family:'Arial', sans-serif;
+	font-size:18px;
+	line-height:30px;
+	width:817px;
 	text-align:center;
 	color:#848484;
 }
