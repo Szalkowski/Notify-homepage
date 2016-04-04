@@ -1,5 +1,6 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-
+@import url(https://fonts.googleapis.com/css?family=Gochi+Hand);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -14,6 +15,8 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+	margin:0;
+	padding:0;
 }
 
 /*
@@ -94,19 +97,58 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Edit header */
+   
+header{
+	height:610px;
+	width:100%;
+	border-top:5px red solid;
+	background-image:url("../img/hand.png"),url("../img/header_image.png");
+	background-position:80% bottom, left top;
+	background-repeat:no-repeat, no-repeat;
+}
+.headText{
+	margin:190px 0 0 128px;
+	color:#ffffff;
+}
+.headText h1{
+	font-family: 'Gochi Hand', cursive;
+	font-size:60px;
+	
+}
+.headText h1:after{
+	content:".";
+	color:red;
+}
+.headText p{
+font-family: 'Roboto', sans-serif;
+font-size:24px;
+font-weight:500;
+width:431px;
+}
+header ul{
+	list-style-type:none;
+	margin-left:128px;
+	padding:0;
+}
+header li{
+	
+	width:50px;
+	height:50px;
+	
+}
+.mobile{
+	margin-left:0;
+	display:inline-block;
+	background:rgba(255,255,255,0.5);
+	border:1px transparent solid;
+	border-radius:25px;
+}
+.mobile img{
+	margin:12px 0 0 14px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*   EDIT CONTENT   */
 
 
 
