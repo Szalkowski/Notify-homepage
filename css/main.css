@@ -132,7 +132,7 @@ header ul{
 	padding:0;
 }
 li.mobile{
-	cursor:pointer;
+	cursor:url(../img/cursor.png), auto;
 }
 li.mobile:hover{
 	background-color:#d4213d;
@@ -170,7 +170,7 @@ li.mobile:hover{
 	font-family: 'Roboto', sans-serif;
 	font-size:22px;
 	font-weight:400;
-	height:335px;
+	min-height:335px;
 	width:1200px;
 	margin:0 auto;
 	text-align:center;
@@ -190,7 +190,7 @@ li.mobile:hover{
 	margin-left:0;
 }
 .first h2{
-	margin-top:65px;
+	margin-top:20px;
 }
 .theme:before{
 	content:url(../img/cogwheel.png);
@@ -199,7 +199,7 @@ li.mobile:hover{
 	border-radius:50px;
 	line-height:122px;
 	display: block;
-    margin: 0px 108px;
+    margin: 0 108px;
     height: 97px;
 }
 .flat:before{
@@ -209,7 +209,7 @@ li.mobile:hover{
 	border-radius:50px;
 	display: block;
 	line-height:123px;
-    margin: 0px 108px;
+    margin: 0 108px;
     height: 97px;
 }
 .world:before{
@@ -219,7 +219,7 @@ li.mobile:hover{
 	border-radius:50px;
 	display: block;
 	line-height:127px;
-    margin: 0px 108px;
+    margin: 0 108px;
     height: 97px;
 }
 .secondContent{
@@ -243,6 +243,9 @@ li.mobile:hover{
 	margin-right:105px;
 	float:right;
 }
+.secondContent form{
+	padding-top:20px;
+}
 #send{
 	width:140px;
 	height:55px;
@@ -256,7 +259,7 @@ li.mobile:hover{
 }
 #email{
 	width:270px;
-	height:54px;
+	height:53px;
 	border:1px transparent solid;
 	border-radius:15px 0 0 15px;
 	padding-left:30px;
@@ -306,9 +309,12 @@ li.mobile:hover{
 	display:inline-block;
 	border-radius:17px;
 }
+.socials a{
+	display:block;
+	cursor:url(../img/cursor.png), auto;
+}
 .socials:hover{
 	background:#df596e;
-	cursor:pointer
 }
 .medi{
 	display:table-cell;
@@ -317,9 +323,28 @@ li.mobile:hover{
 }
 
 
+/*  EDIT FOOTER  */
 
-
-
+footer{
+	height:130px;
+	background:#e3e3e3;
+}
+footer ul{
+	list-style-type:none;
+	width:566px;
+	margin:0 auto;
+	padding:0;
+}
+footer li{
+	display:inline-block;
+}
+footer a{
+	margin-left:30px;
+	text-decoration:none;
+	line-height:130px;
+	color:#848484;
+	cursor:url(../img/cursor.png), auto;
+}
 
 /* ==========================================================================
    Helper classes
