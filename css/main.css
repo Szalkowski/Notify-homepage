@@ -108,7 +108,7 @@ header{
 	background-repeat:no-repeat, no-repeat;
 }
 .headText{
-	margin:190px 0 0 128px;
+	margin:13% 0 0 9%;
 	color:#ffffff;
 }
 .headText h1{
@@ -128,7 +128,7 @@ width:431px;
 }
 header ul{
 	list-style-type:none;
-	margin-left:128px;
+	margin-left:10%;
 	padding:0;
 }
 li.mobile{
