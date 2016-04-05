@@ -238,7 +238,8 @@ a.windows:after{
 }
 
 .first p{
-    width: 300px;
+    width: 356px;
+    margin: 21px auto;
 }
 
 .theme:before{
