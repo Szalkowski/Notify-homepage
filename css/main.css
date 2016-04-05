@@ -110,10 +110,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* Edit header */
-   
-.header{
-	height:680px;
-	width:100%;
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+	height: 680px;
+	width: 100%;
 	background-image: url("../img/hand.png"),url("../img/header_image.png");
     background-position: 92% bottom, left top;
     background-size: 494px 568px, 100% 100%;
@@ -121,22 +126,22 @@ textarea {
     border-top: 5px red solid;
 }
 
-.head-text{
-    margin: 200px 0 0 144px;
+.head-text {
+    margin: 200px 0 0 70px;
 	color: #ffffff;
 }
 
-.head-text h1{
+.head-text h1 {
 	font-family: "Gochi Hand", cursive;
 	font-size: 60px;
 }
 
-.head-text h1:after{
+.head-text h1:after {
 	content: ".";
 	color: red;
 }
 
-.head-text p{
+.head-text p {
     width: 431px;
     line-height: 36px;
     font-family: "Roboto", sans-serif;
@@ -145,60 +150,55 @@ textarea {
     margin-bottom: 0;
 }
 
-.header ul{
+.platforms {
     display: table;
 	padding: 0;
-    margin: 11px 0 0 128px;
+    margin: 11px 0 0 52px;
     border-spacing: 17px;
 }
 
-li.mobile{
-	cursor: url(../img/cursor.png), auto;
+.platform {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 57px;
+    width: 59px;
+    margin-left: 0;
+    background: rgba(255,255,255,0.5);
+    background-size: 50px 50px;
+    border-radius: 28px;
+	
 }
 
-li.mobile:hover{
+.platform:hover {
 	background-color: #d4213d;
 }
 
-.mobile{
-    display: inline-block;
-    height: 57px;
-    width: 59px;
-	margin-left: 0;
-	background: rgba(255,255,255,0.5);
-	background-size: 50px 50px;
-    border-radius: 28px;
-}
-
-.phones{
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-}
-
-.phones a{
+.platform a {
+    display: block;
     text-decoration: none;
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
+    cursor: url(../img/cursor.png), auto;
 }
 
-a.apple:after{
+.apple:after {
     content: "\e808";
     display: block;
     speak: none;
     color: #ffffff;
 }
 
-a.android:after{
+.android:after {
     content: "\e807";
     display: block;
     speak: none;
     color: #ffffff;
 }
 
-a.windows:after{
+.windows:after {
     content: "\e806";
     display: block;
     font-size: 23px;
@@ -208,7 +208,7 @@ a.windows:after{
 /*   EDIT CONTENT   */
 
 
-.first-content{
+.features{
     min-height: 377px;
     text-align: center;
 	font-family: "Roboto", sans-serif;
@@ -216,29 +216,29 @@ a.windows:after{
 	font-weight: 400;
 }
 
-.first-content p{
+.features p{
     line-height: 26px;
 	font-family: "Arial", sans-serif;
 	font-size: 16px;
 	color: #848484;
 }
 
-.first{
+.feature{
     display: inline-block;
-    width: 380px;
+    width: 332px;
     margin: 76px 0 0 96px;
 }
 
-.first:first-child{
+.feature:first-child{
 	margin-left: 0;
 }
 
-.first h2{
+.feature h2{
     margin: 20px 0 0 0;
 }
 
-.first p{
-    width: 356px;
+.feature p{
+    width: 312px;
     margin: 21px auto;
 }
 
@@ -246,7 +246,7 @@ a.windows:after{
 	content: "\e80b";
     display: block;
     height: 97px;
-    margin: 0 140px;
+    margin: 0 116px;
     line-height: 96px;
     font-family: "fontello";
     font-style: normal;
@@ -259,11 +259,11 @@ a.windows:after{
 	border-radius: 50px;
 }
 
-.flat:before{
+.design:before{
 	content: "\e809";
     display: block;
     height: 97px;
-    margin: 0 140px;
+    margin: 0 116px;
     line-height: 96px;
     font-family: "fontello";
     font-style: normal;
@@ -276,11 +276,11 @@ a.windows:after{
 	border-radius: 50px;
 }
 
-.world:before{
+.audience:before{
 	content: "\e80a";
     display: block;
     height: 97px;
-    margin: 0 140px;
+    margin: 0 116px;
     line-height: 96px;
     font-family: "fontello";
     font-style: normal;
@@ -294,20 +294,20 @@ a.windows:after{
     
 }
 
-.second-content{
+.get-notified{
 	height: 480px;
 	background-color: #e3e3e3;
 }
 
-.second-content h2{
+.sget-notified h2{
     padding: 47px 0 0 14px;
     line-height: 26px;
 	font-family: "Roboto", sans-serif;
 	font-size: 22px;
 }
 
-.second-content p{
-    padding: 4px 0 0 11px;
+.get-notified p{
+    padding-top: 4px;
     margin-bottom: 0;
     line-height: 29px;
 	font-family: "Arial", sans-serif;
@@ -315,7 +315,7 @@ a.windows:after{
 	color: #848484;
 }
 
-.sec-cont-left{
+.left-column{
 	float: left;
 	width: 550px;
 }
@@ -327,7 +327,7 @@ a.windows:after{
     margin: 68px 8px 0 0;
 }
 
-.second-content form{
+.get-notified form{
 	padding-top: 24px;
 }
 
@@ -347,16 +347,16 @@ a.windows:after{
     width: 311px;
     height: 59px;
     padding-left: 30px;
-    margin: 0 -4.5px 0 10px;
+    margin: 0 -4.5px 0 0;
 	border: 1px transparent solid;
 	border-radius: 15px 0 0 15px;
 }
 
-.third-content{
+.testimonials{
 	height: 465px;
 }
 
-.third-content p{
+.testimonials p{
     width: 817px;
 	margin: 60px auto 0;
     text-align: center;
@@ -367,7 +367,7 @@ a.windows:after{
 	color: #848484;
 }
 
-.third-content p:nth-of-type(2){
+.testimonials p:nth-of-type(2){
     width: 785px;
 	margin: 20px auto 0;
     line-height: 26px;
@@ -377,14 +377,14 @@ a.windows:after{
 	color: #848484;
 }
 
-.third-content h2{
+.testimonials h2{
     margin-top: 73px;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
 }
 
-.third-content h3{
+.testimonials h3{
     margin-top: 25px;
     text-align: center;
 	font-family: "Roboto", sans-serif;
@@ -401,7 +401,7 @@ a.windows:after{
     width: 50px;
 }
 
-.third-content ul{
+.testimonials ul{
 	list-style-type: none;
 	display: table;
     width: auto;
@@ -436,7 +436,7 @@ a.windows:after{
 	vertical-align: middle;
 	text-align: center;
 }
-a.twitter:after{
+.twitter:after{
     content: "\e80c";
     display: block;
     font-family: "fontello";
@@ -447,7 +447,7 @@ a.twitter:after{
     color: #ffffff;
 }
 
-a.facebook:after{
+.facebook:after{
     content: "\e80d";
     display: block;
     font-family: "fontello";
@@ -458,7 +458,7 @@ a.facebook:after{
     color: #ffffff;
 }
 
-a.pin:after{
+.pin:after{
     content: "\e80e";
     display: block;
     font-family: "fontello";
@@ -469,7 +469,7 @@ a.pin:after{
     color: #ffffff;
 }
 
-a.google:after{
+.google:after{
     content: "\e80f";
     display: block;
     font-family: "fontello";
@@ -480,7 +480,7 @@ a.google:after{
     color: #ffffff;
 }
 
-a.linked:after{
+.linked:after{
     content: "\e810";
     display: block;
     font-family: "fontello";
@@ -491,7 +491,7 @@ a.linked:after{
     color: #ffffff;
 }
 
-a.youtube:after{
+.youtube:after{
     content: "\e811";
     display: block;
     font-family: "fontello";
@@ -537,7 +537,7 @@ a.youtube:after{
 	margin-left:0;
 }
 
-a.contact:before{
+.contact:before{
     content: "\e805";
     display: block;
     float: left;
@@ -548,7 +548,7 @@ a.contact:before{
 	speak: none;
 }
 
-a.download:before{
+.download:before{
     content: "\e800";
     display: block;
     float: left;
@@ -559,7 +559,7 @@ a.download:before{
 	speak: none;
 }
 
-a.press:before{
+.press:before{
     content: "\e803";
     display: block;
     float: left;
@@ -570,7 +570,7 @@ a.press:before{
 	speak: none;
 }
 
-a.email:before{
+.email:before{
     content: "\e801";
     display: block;
     float: left;
@@ -581,7 +581,7 @@ a.email:before{
 	speak: none;
 }
 
-a.support:before{
+.support:before{
     content: "\e804";
     display: block;
     float: left;
@@ -592,7 +592,7 @@ a.support:before{
 	speak: none;
 }
 
-a.policy:before{
+.policy:before{
     content: "\e802";
     display: block;
     float: left;
