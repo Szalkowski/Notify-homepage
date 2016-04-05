@@ -307,7 +307,6 @@ textarea {
 }
 
 .get-notified p{
-    padding-top: 4px;
     margin-bottom: 0;
     line-height: 29px;
 	font-family: "Arial", sans-serif;
@@ -318,13 +317,14 @@ textarea {
 .left-column{
 	float: left;
 	width: 550px;
+    margin-top: 40px;
 }
 
 .player{
     float: right;
     width: 571px;
     height: 350px;
-    margin: 68px 8px 0 0;
+    margin: 68px 0 0 0;
 }
 
 .get-notified form{
