@@ -143,11 +143,11 @@ textarea {
 
 .head-text p {
     width: 431px;
+    margin-bottom: 0;
     line-height: 36px;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 0;
 }
 
 .platforms {
@@ -159,11 +159,11 @@ textarea {
 
 .platform {
     display: table-cell;
-    vertical-align: middle;
-    text-align: center;
     height: 57px;
     width: 59px;
     margin-left: 0;
+    vertical-align: middle;
+    text-align: center;
     background: rgba(255,255,255,0.5);
     background-size: 50px 50px;
     border-radius: 28px;
@@ -208,7 +208,7 @@ textarea {
 /*   EDIT CONTENT   */
 
 
-.features{
+.features {
     min-height: 377px;
     text-align: center;
 	font-family: "Roboto", sans-serif;
@@ -216,33 +216,33 @@ textarea {
 	font-weight: 400;
 }
 
-.features p{
+.features p {
     line-height: 26px;
 	font-family: "Arial", sans-serif;
 	font-size: 16px;
 	color: #848484;
 }
 
-.feature{
+.feature {
     display: inline-block;
     width: 332px;
     margin: 76px 0 0 96px;
 }
 
-.feature:first-child{
+.feature:first-child {
 	margin-left: 0;
 }
 
-.feature h2{
+.feature h2 {
     margin: 20px 0 0 0;
 }
 
-.feature p{
+.feature p {
     width: 312px;
     margin: 21px auto;
 }
 
-.theme:before{
+.theme:before {
 	content: "\e80b";
     display: block;
     height: 97px;
@@ -259,7 +259,7 @@ textarea {
 	border-radius: 50px;
 }
 
-.design:before{
+.design:before {
 	content: "\e809";
     display: block;
     height: 97px;
@@ -276,7 +276,7 @@ textarea {
 	border-radius: 50px;
 }
 
-.audience:before{
+.audience:before {
 	content: "\e80a";
     display: block;
     height: 97px;
@@ -294,19 +294,19 @@ textarea {
     
 }
 
-.get-notified{
+.get-notified {
 	height: 480px;
 	background-color: #e3e3e3;
 }
 
-.sget-notified h2{
+.sget-notified h2 {
     padding: 47px 0 0 14px;
     line-height: 26px;
 	font-family: "Roboto", sans-serif;
 	font-size: 22px;
 }
 
-.get-notified p{
+.get-notified p {
     margin-bottom: 0;
     line-height: 29px;
 	font-family: "Arial", sans-serif;
@@ -314,24 +314,24 @@ textarea {
 	color: #848484;
 }
 
-.left-column{
+.left-column {
 	float: left;
 	width: 550px;
     margin-top: 40px;
 }
 
-.player{
+.player {
     float: right;
     width: 571px;
     height: 350px;
     margin: 68px 0 0 0;
 }
 
-.get-notified form{
+.get-notified form {
 	padding-top: 24px;
 }
 
-.send{
+.send {
 	width: 157px;
     height: 61px;
 	text-align: center;
@@ -343,7 +343,7 @@ textarea {
 	color: #ffffff;
 }
 
-.form-email{
+.form-email {
     width: 311px;
     height: 59px;
     padding-left: 30px;
@@ -352,11 +352,11 @@ textarea {
 	border-radius: 15px 0 0 15px;
 }
 
-.testimonials{
+.testimonials {
 	height: 465px;
 }
 
-.testimonials p{
+.testimonials p {
     width: 817px;
 	margin: 60px auto 0;
     text-align: center;
@@ -367,7 +367,7 @@ textarea {
 	color: #848484;
 }
 
-.testimonials p:nth-of-type(2){
+.testimonials p:nth-of-type(2) {
     width: 785px;
 	margin: 20px auto 0;
     line-height: 26px;
@@ -377,40 +377,40 @@ textarea {
 	color: #848484;
 }
 
-.testimonials h2{
+.testimonials h2 {
     margin-top: 73px;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
 }
 
-.testimonials h3{
+.testimonials h3 {
     margin-top: 25px;
     text-align: center;
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 }
 
-.faces{
+.faces {
     position: relative;
 	width: 900px;
 	margin: 0 auto;
 }
 
-.faces img{
+.faces img {
     width: 50px;
 }
 
-.testimonials ul{
-	list-style-type: none;
+.testimonials ul {
 	display: table;
     width: auto;
     margin: 9px auto 0;
 	padding: 0;
+    list-style-type: none;
 	border-spacing: 16px;
 }
 
-.socials{
+.socials {
 	height: 34px;
 	width: 34px;
     perspective: 100px;
@@ -420,23 +420,23 @@ textarea {
 	transition: 1s;
 }
 
-.socials a{
+.socials a {
 	display: block;
 	cursor: url(../img/cursor.png), auto;
     text-decoration: none;
 }
 
-.socials:hover{
+.socials:hover {
 	background: #df596e;
 	transform: rotateY(360deg);
 }
 
-.medi{
+.medi {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
 }
-.twitter:after{
+.twitter:after {
     content: "\e80c";
     display: block;
     font-family: "fontello";
@@ -447,7 +447,7 @@ textarea {
     color: #ffffff;
 }
 
-.facebook:after{
+.facebook:after {
     content: "\e80d";
     display: block;
     font-family: "fontello";
@@ -458,7 +458,7 @@ textarea {
     color: #ffffff;
 }
 
-.pin:after{
+.pin:after {
     content: "\e80e";
     display: block;
     font-family: "fontello";
@@ -469,7 +469,7 @@ textarea {
     color: #ffffff;
 }
 
-.google:after{
+.google:after {
     content: "\e80f";
     display: block;
     font-family: "fontello";
@@ -480,7 +480,7 @@ textarea {
     color: #ffffff;
 }
 
-.linked:after{
+.linked:after {
     content: "\e810";
     display: block;
     font-family: "fontello";
@@ -491,7 +491,7 @@ textarea {
     color: #ffffff;
 }
 
-.youtube:after{
+.youtube:after {
     content: "\e811";
     display: block;
     font-family: "fontello";
@@ -504,40 +504,40 @@ textarea {
 /*  EDIT FOOTER  */
 
 
-.footer{
+.footer {
 	height: 144px;
 	background: #e3e3e3;
 }
 
-.footer ul{
+.footer ul {
 	list-style-type: none;
 	width: 689px;
 	margin: 0 auto;
 	padding: 0;
 }
 
-.footer li{
+.footer li {
 	display: inline-block;
 	margin-left: 24px;
-	line-height: 148px;
+	line-height: 144px;
 }
 
-.footer a{
+.footer a {
     display: block;
     cursor: url(../img/cursor.png), auto;
 	text-decoration: none;
 	color: #848484;
 }
 
-.footer a:hover{
+.footer a:hover {
     text-decoration: underline;
 }
 
-.footer li:first-child{
+.footer li:first-child {
 	margin-left:0;
 }
 
-.contact:before{
+.contact:before {
     content: "\e805";
     display: block;
     float: left;
@@ -548,7 +548,7 @@ textarea {
 	speak: none;
 }
 
-.download:before{
+.download:before {
     content: "\e800";
     display: block;
     float: left;
@@ -559,7 +559,7 @@ textarea {
 	speak: none;
 }
 
-.press:before{
+.press:before {
     content: "\e803";
     display: block;
     float: left;
@@ -570,7 +570,7 @@ textarea {
 	speak: none;
 }
 
-.email:before{
+.email:before {
     content: "\e801";
     display: block;
     float: left;
@@ -581,7 +581,7 @@ textarea {
 	speak: none;
 }
 
-.support:before{
+.support:before {
     content: "\e804";
     display: block;
     float: left;
@@ -592,7 +592,7 @@ textarea {
 	speak: none;
 }
 
-.policy:before{
+.policy:before {
     content: "\e802";
     display: block;
     float: left;
