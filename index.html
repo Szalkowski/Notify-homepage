@@ -9,7 +9,8 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -20,21 +21,21 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header>
+        <header class="header">
 			<div class="wrapper">
-				<div class="headText">
+				<div class="head-text">
 					<h1>Notify</h1>
 					<p>A great new solution that is going to change your life</p>
 				</div>
 				<ul>
-					<li class="mobile phones"><a href="#" title="MacOS"><img src="img/apple_icon.png" /></a></li>
-					<li class="mobile phones"><a href="#" title="Android"><img src="img/android_icon.png" /></a></li>
-					<li class="mobile phones"><a href="#" title="Windows Phone"><img src="img/windows_icon.png" /></a></li>
+					<li class="mobile phones"><a class="apple" href="#" title="MacOS"></a></li>
+					<li class="mobile phones"><a class="android" href="#" title="Android"></a></li>
+					<li class="mobile phones"><a class="windows" href="#" title="Windows Phone"></a></li>
 				</ul>
 			</div>
 		</header>
-		<main>
-			<div class="firstContent wrapper">
+		<main class="main">
+			<div class="first-content wrapper">
 				<div class="theme first">
 					<h2>Editable Theme</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
@@ -48,63 +49,62 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
 				</div>
 			</div>
-			<div class="secondContent">
+			<div class="second-content">
 				<div class="wrapper">
-					<div class="secContLeft">
+					<div class="sec-cont-left">
 						<h2>Get Notified Of Any Updates!</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
 						<form>
-							<input type="email" name="email" id="email" placeholder="Email Address" />
-							<button type="submit" id="send">Notify</button>
+							<input type="email" name="email" class="form-email" placeholder="Email Address" />
+							<button type="submit" class="send">Notify</button>
 						</form>
 					</div>
-					<video width="500" height="300" controls>
-						<source src="" type="video/mp4">
-						<source src="" type="video/ogg">
-					</video>
+					<video class="player" src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls>
+                        Your browser does not support the <code>video</code> element.
+                    </video>
 				</div>
 			</div>
-			<div class="thirdContent wrapper">
+			<div class="third-content wrapper">
 				<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut.”</p>
 				<h3>Jane Hunt</h3>
 				<div class="faces">
-					<div class="carousel spinner">
-						<img src="img/photo1.png" alt="twarz kobiety" />
-						<img src="img/photo2.png" alt="twarz mężczyzny" />
-						<img src="img/photo3.png" alt="twarz mężczyzny" />
-						<img src="img/photo4.png" alt="twarze starszej pary" />
-						<img src="img/photo2.png" alt="twarz mężczyzny" />
-						<img src="img/photo3.png" alt="twarz mężczyzny" />
-						<img src="img/photo4.png" alt="twarze starszej pary" />
-						<img src="img/photo2.png" alt="twarz mężczyzny" />
-						<img src="img/photo3.png" alt="twarz mężczyzny" />
-						<img src="img/photo4.png" alt="twarze starszej pary" />
-						<img src="img/photo2.png" alt="twarz mężczyzny" />
-						<img src="img/photo3.png" alt="twarz mężczyzny" />
-						<img src="img/photo4.png" alt="twarze starszej pary" />
-						<img src="img/photo2.png" alt="twarz mężczyzny" />
-						<img src="img/photo3.png" alt="twarz mężczyzny" />
-						<img src="img/photo4.png" alt="twarze starszej pary" />
-						<img src="img/photo2.png" alt="twarz mężczyzny" />
-						<img src="img/photo3.png" alt="twarz mężczyzny" />
-						<img src="img/photo4.png" alt="twarze starszej pary" />
-						<img src="img/photo2.png" alt="twarz mężczyzny" />
-						<img src="img/photo5.png" alt="twarz kobiety" />
+					<div class="multiple-items">
+						<div><img src="img/photo1.png" alt="twarz kobiety" /></div>
+						<div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
+						<div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
+						<div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
+						<div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
+						<div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
+						<div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
+						<div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
+						<div><img src="img/photo5.png" alt="twarz kobiety" /></div>
 					</div>
 				</div>
 				<h2>Say Hi &#38; Get In Touch</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				<ul>
-					<li class="socials medi"><a href="#" title="twitter"><img src="img/twitter.png" alt="połącz z twitterem"/></a></li>
-					<li class="socials medi"><a href="#" title="facebook"><img src="img/facebook.png" alt="połącz z facebookiem"/></a></li>
-					<li class="socials medi"><a href="#" title="pinterest"><img src="img/pinterest.png" alt="połącz z pinterest"/></a></li>
-					<li class="socials medi"><a href="#" title="google plus"><img src="img/google+.png" alt="połącz z google plus"/></a></li>
-					<li class="socials medi"><a href="#" title="linkedin"><img src="img/linkedin.png" alt="połącz z linkedin"/></a></li>
-					<li class="socials medi"><a href="#" title="youtube"><img src="img/youtube.png" alt="połącz z youtube"/></a></li>
+					<li class="socials medi"><a class="twitter" href="#" title="twitter"></a></li>
+					<li class="socials medi"><a class="facebook" href="#" title="facebook"></a></li>
+					<li class="socials medi"><a class="pin" href="#" title="pinterest"></a></li>
+					<li class="socials medi"><a class="google" href="#" title="google plus"></a></li>
+					<li class="socials medi"><a class="linked" href="#" title="linkedin"></a></li>
+					<li class="socials medi"><a class="youtube" href="#" title="youtube"></a></li>
 				</ul>
 			</div>
 		</main>
-		<footer>
+		<footer class="footer">
 			<ul>
 				<li><a href="#" class="contact" title="skontaktuj się z nami">Contact</a></li>
 				<li><a href="#" class="download" title="centrum pobierania">Download</a></li>
@@ -114,14 +114,15 @@
 				<li><a href="#" class="policy" title="polityka prywatności">Privacy Policy</a></li>
 			</ul>
 		</footer>
-		
-		
-		
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
