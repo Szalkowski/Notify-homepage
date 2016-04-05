@@ -132,17 +132,18 @@ p {
 }
 
 .header {
-    height: 680px;
+    height: 677px;
     width: 100%;
     background-image: url("../img/hand.png"),url("../img/header_image.png");
     background-position: 92% bottom, left top;
     background-size: 494px 568px, 100% 100%;
     background-repeat: no-repeat, no-repeat;
-    border-top: 5px red solid;
+    border-top: 10px red solid;
 }
 
 .head-text {
-    margin: 200px 0 0 70px;
+    margin: 194px 0 0 70px;
+    letter-spacing: 1.25px;
     color: #ffffff;
 }
 
@@ -157,7 +158,7 @@ p {
 }
 
 .head-text p {
-    width: 431px;
+    width: 433px;
     margin-bottom: 0;
     line-height: 36px;
     font-family: "Roboto", sans-serif;
@@ -254,8 +255,7 @@ p {
     margin: 21px auto;
 }
 
-.theme:before {
-    content: "\e80b";
+.feature:before {
     display: block;
     height: 97px;
     margin: 0 116px;
@@ -267,43 +267,19 @@ p {
     speak: none;
     color: #ffffff;
     background: #d4213d;
-    border: 1px transparent solid;
+    border: none;
     border-radius: 50px;
+}
+.theme:before {
+    content: "\e80b";
 }
 
 .design:before {
     content: "\e809";
-    display: block;
-    height: 97px;
-    margin: 0 116px;
-    line-height: 96px;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    speak: none;
-    color: #ffffff;
-    background: #d4213d;
-    border: 1px transparent solid;
-    border-radius: 50px;
 }
 
 .audience:before {
     content: "\e80a";
-    display: block;
-    height: 97px;
-    margin: 0 116px;
-    line-height: 96px;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    speak: none;
-    color: #ffffff;
-    background: #d4213d;
-    border: 1px transparent solid;
-    border-radius: 50px;
-
 }
 
 .get-notified {
@@ -325,7 +301,6 @@ p {
 .newsletter {
     float: left;
     width: 550px;
-    margin-top: 40px;
 }
 
 .player {
@@ -346,7 +321,7 @@ p {
     font-family: "Myriad Pro", sans-serif;
     font-size: 22px;
     background-color: #d4213d;
-    border: 1px transparent solid;
+    border: none;
     border-radius: 0 10px 10px 0;
     color: #ffffff;
 }
@@ -356,7 +331,7 @@ p {
     height: 59px;
     padding-left: 30px;
     margin: 0 -4.5px 0 0;
-    border: 1px transparent solid;
+    border: none;
     border-radius: 15px 0 0 15px;
 }
 
@@ -365,7 +340,7 @@ p {
 }
 
 .testimonials p {
-    width: 817px;
+    width: 883px;
     margin: 60px auto 0;
     text-align: center;
     line-height: 30px;
@@ -376,18 +351,15 @@ p {
 .testimonials p:nth-of-type(2) {
     width: 785px;
     margin: 20px auto 0;
-    line-height: 26px;
+    line-height: 19px;
     text-align: center;
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 16px;
+    font-style: normal;
+    font-size: 18px;
     color: #848484;
 }
 
-.testimonials h2 {
-    margin-top: 73px;
-    text-align: center;
-    font-size: 24px;
-}
+
 
 .testimonials h3 {
     margin-top: 25px;
@@ -398,17 +370,22 @@ p {
 .faces {
     position: relative;
     width: 900px;
-    margin: 0 auto;
+    margin: 29px auto 0;
 }
 
 .faces img {
     width: 50px;
 }
 
+.testimonials h2 {
+    margin-top: 61px;
+    text-align: center;
+    font-size: 24px;
+}
+
 .testimonials ul {
     display: table;
-    width: auto;
-    margin: 9px auto 0;
+    margin: 14px auto 0;
     padding: 0;
     list-style-type: none;
     border-spacing: 16px;
@@ -437,8 +414,7 @@ p {
     transform: rotateY(360deg);
 }
 
-.twitter:after {
-    content: "\e80c";
+.socials a:after {
     display: block;
     font-family: "fontello";
     font-style: normal;
@@ -446,61 +422,30 @@ p {
     font-size: 20px;
     speak: none;
     color: #ffffff;
+}
+
+.twitter:after {
+    content: "\e80c";
 }
 
 .facebook:after {
     content: "\e80d";
-    display: block;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    speak: none;
-    color: #ffffff;
 }
 
 .pin:after {
     content: "\e80e";
-    display: block;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    speak: none;
-    color: #ffffff;
 }
 
 .google:after {
     content: "\e80f";
-    display: block;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    speak: none;
-    color: #ffffff;
 }
 
 .linked:after {
     content: "\e810";
-    display: block;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    speak: none;
-    color: #ffffff;
 }
 
 .youtube:after {
     content: "\e811";
-    display: block;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    speak: none;
-    color: #ffffff;
 }
 
 
@@ -542,8 +487,7 @@ p {
     margin-left:0;
 }
 
-.contact:before {
-    content: "\e805";
+.footer a:before {
     display: block;
     float: left;
     padding-right: 5px;
@@ -551,61 +495,30 @@ p {
     font-style: normal;
     font-weight: normal;
     speak: none;
+}
+
+.contact:before {
+    content: "\e805";
 }
 
 .download:before {
     content: "\e800";
-    display: block;
-    float: left;
-    padding-right: 5px;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
 }
 
 .press:before {
     content: "\e803";
-    display: block;
-    float: left;
-    padding-right: 5px;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
 }
 
 .email:before {
     content: "\e801";
-    display: block;
-    float: left;
-    padding-right: 5px;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
 }
 
 .support:before {
     content: "\e804";
-    display: block;
-    float: left;
-    padding-right: 5px;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
 }
 
 .policy:before {
     content: "\e802";
-    display: block;
-    float: left;
-    padding-right: 5px;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
 }
 
 
