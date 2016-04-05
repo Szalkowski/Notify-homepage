@@ -411,11 +411,13 @@ textarea {
 }
 
 .socials {
+    display: table-cell;
 	height: 34px;
 	width: 34px;
     perspective: 100px;
+    text-align: center;
+    vertical-align: middle;
 	background: #d4d4d4;
-	display: inline-block;
 	border-radius: 17px;
 	transition: 1s;
 }
@@ -431,11 +433,6 @@ textarea {
 	transform: rotateY(360deg);
 }
 
-.medi {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-}
 .twitter:after {
     content: "\e80c";
     display: block;
