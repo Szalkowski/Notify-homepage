@@ -27,8 +27,8 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-	margin:0;
-	padding:0;
+    margin:0;
+    padding:0;
 }
 
 /*
@@ -109,36 +109,51 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* Edit header */
+
+
+/* ==========================================================================
+                                    HEADER
+   ========================================================================== */
+
 
 .wrapper {
     width: 1200px;
     margin: 0 auto;
 }
 
+h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #848484;
+}
+
 .header {
-	height: 680px;
-	width: 100%;
-	background-image: url("../img/hand.png"),url("../img/header_image.png");
+    height: 680px;
+    width: 100%;
+    background-image: url("../img/hand.png"),url("../img/header_image.png");
     background-position: 92% bottom, left top;
     background-size: 494px 568px, 100% 100%;
-	background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat, no-repeat;
     border-top: 5px red solid;
 }
 
 .head-text {
     margin: 200px 0 0 70px;
-	color: #ffffff;
+    color: #ffffff;
 }
 
 .head-text h1 {
-	font-family: "Gochi Hand", cursive;
-	font-size: 60px;
+    font-family: "Gochi Hand", cursive;
+    font-size: 60px;
 }
 
 .head-text h1:after {
-	content: ".";
-	color: red;
+    content: ".";
+    color: red;
 }
 
 .head-text p {
@@ -148,11 +163,12 @@ textarea {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 500;
+    color: #ffffff;
 }
 
 .platforms {
     display: table;
-	padding: 0;
+    padding: 0;
     margin: 11px 0 0 52px;
     border-spacing: 17px;
 }
@@ -167,11 +183,11 @@ textarea {
     background: rgba(255,255,255,0.5);
     background-size: 50px 50px;
     border-radius: 28px;
-	
+
 }
 
 .platform:hover {
-	background-color: #d4213d;
+    background-color: #d4213d;
 }
 
 .platform a {
@@ -184,53 +200,49 @@ textarea {
     cursor: url(../img/cursor.png), auto;
 }
 
-.apple:after {
-    content: "\e808";
+.platform a:after {
     display: block;
     speak: none;
     color: #ffffff;
+}
+
+.apple:after {
+    content: "\e808";
 }
 
 .android:after {
     content: "\e807";
-    display: block;
-    speak: none;
-    color: #ffffff;
 }
 
 .windows:after {
     content: "\e806";
-    display: block;
-    font-size: 23px;
-    speak: none;
-    color: #ffffff;
 }
-/*   EDIT CONTENT   */
+
+
+/* ==========================================================================
+                                    CONTENT
+   ========================================================================== */
 
 
 .features {
     min-height: 377px;
     text-align: center;
-	font-family: "Roboto", sans-serif;
-	font-size: 22px;
-	font-weight: 400;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .features p {
     line-height: 26px;
-	font-family: "Arial", sans-serif;
-	font-size: 16px;
-	color: #848484;
 }
 
 .feature {
     display: inline-block;
-    width: 332px;
+    width: 331px;
     margin: 76px 0 0 96px;
 }
 
 .feature:first-child {
-	margin-left: 0;
+    margin-left: 0;
 }
 
 .feature h2 {
@@ -243,7 +255,7 @@ textarea {
 }
 
 .theme:before {
-	content: "\e80b";
+    content: "\e80b";
     display: block;
     height: 97px;
     margin: 0 116px;
@@ -254,13 +266,13 @@ textarea {
     font-size: 50px;
     speak: none;
     color: #ffffff;
-	background: #d4213d;
-	border: 1px transparent solid;
-	border-radius: 50px;
+    background: #d4213d;
+    border: 1px transparent solid;
+    border-radius: 50px;
 }
 
 .design:before {
-	content: "\e809";
+    content: "\e809";
     display: block;
     height: 97px;
     margin: 0 116px;
@@ -271,13 +283,13 @@ textarea {
     font-size: 50px;
     speak: none;
     color: #ffffff;
-	background: #d4213d;
-	border: 1px transparent solid;
-	border-radius: 50px;
+    background: #d4213d;
+    border: 1px transparent solid;
+    border-radius: 50px;
 }
 
 .audience:before {
-	content: "\e80a";
+    content: "\e80a";
     display: block;
     height: 97px;
     margin: 0 116px;
@@ -288,35 +300,31 @@ textarea {
     font-size: 50px;
     speak: none;
     color: #ffffff;
-	background: #d4213d;
-	border: 1px transparent solid;
-	border-radius: 50px;
-    
+    background: #d4213d;
+    border: 1px transparent solid;
+    border-radius: 50px;
+
 }
 
 .get-notified {
-	height: 480px;
-	background-color: #e3e3e3;
+    height: 480px;
+    background-color: #e3e3e3;
 }
 
-.sget-notified h2 {
-    padding: 47px 0 0 14px;
+.get-notified h2 {
+    padding: 47px 0 0 0;
     line-height: 26px;
-	font-family: "Roboto", sans-serif;
-	font-size: 22px;
+    font-size: 22px;
 }
 
 .get-notified p {
     margin-bottom: 0;
     line-height: 29px;
-	font-family: "Arial", sans-serif;
-	font-size: 16px;
-	color: #848484;
 }
 
 .newsletter {
-	float: left;
-	width: 550px;
+    float: left;
+    width: 550px;
     margin-top: 40px;
 }
 
@@ -328,19 +336,19 @@ textarea {
 }
 
 .get-notified form {
-	padding-top: 24px;
+    padding-top: 24px;
 }
 
 .send {
-	width: 157px;
+    width: 157px;
     height: 61px;
-	text-align: center;
-	font-family: "Myriad Pro", sans-serif;
-	font-size: 22px;
-	background-color: #d4213d;
-	border: 1px transparent solid;
-	border-radius: 0 10px 10px 0;
-	color: #ffffff;
+    text-align: center;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 22px;
+    background-color: #d4213d;
+    border: 1px transparent solid;
+    border-radius: 0 10px 10px 0;
+    color: #ffffff;
 }
 
 .form-email {
@@ -348,53 +356,49 @@ textarea {
     height: 59px;
     padding-left: 30px;
     margin: 0 -4.5px 0 0;
-	border: 1px transparent solid;
-	border-radius: 15px 0 0 15px;
+    border: 1px transparent solid;
+    border-radius: 15px 0 0 15px;
 }
 
 .testimonials {
-	height: 465px;
+    height: 465px;
 }
 
 .testimonials p {
     width: 817px;
-	margin: 60px auto 0;
+    margin: 60px auto 0;
     text-align: center;
     line-height: 30px;
-	font-family: "Arial", sans-serif;
-	font-size: 18px;
-	font-style: italic;
-	color: #848484;
+    font-size: 18px;
+    font-style: italic;
 }
 
 .testimonials p:nth-of-type(2) {
     width: 785px;
-	margin: 20px auto 0;
+    margin: 20px auto 0;
     line-height: 26px;
     text-align: center;
-	font-family: "Helvetica Neue", sans-serif;
-	font-size: 16px;
-	color: #848484;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    color: #848484;
 }
 
 .testimonials h2 {
     margin-top: 73px;
     text-align: center;
-    font-family: "Roboto", sans-serif;
     font-size: 24px;
 }
 
 .testimonials h3 {
     margin-top: 25px;
     text-align: center;
-	font-family: "Roboto", sans-serif;
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .faces {
     position: relative;
-	width: 900px;
-	margin: 0 auto;
+    width: 900px;
+    margin: 0 auto;
 }
 
 .faces img {
@@ -402,35 +406,35 @@ textarea {
 }
 
 .testimonials ul {
-	display: table;
+    display: table;
     width: auto;
     margin: 9px auto 0;
-	padding: 0;
+    padding: 0;
     list-style-type: none;
-	border-spacing: 16px;
+    border-spacing: 16px;
 }
 
 .socials {
     display: table-cell;
-	height: 34px;
-	width: 34px;
+    height: 34px;
+    width: 34px;
     perspective: 100px;
     text-align: center;
     vertical-align: middle;
-	background: #d4d4d4;
-	border-radius: 17px;
-	transition: 1s;
+    background: #d4d4d4;
+    border-radius: 17px;
+    transition: 1s;
 }
 
 .socials a {
-	display: block;
-	cursor: url(../img/cursor.png), auto;
+    display: block;
+    cursor: url(../img/cursor.png), auto;
     text-decoration: none;
 }
 
 .socials:hover {
-	background: #df596e;
-	transform: rotateY(360deg);
+    background: #df596e;
+    transform: rotateY(360deg);
 }
 
 .twitter:after {
@@ -498,32 +502,36 @@ textarea {
     speak: none;
     color: #ffffff;
 }
-/*  EDIT FOOTER  */
+
+
+/* ==========================================================================
+                                    FOOTER
+   ========================================================================== */
 
 
 .footer {
-	height: 144px;
-	background: #e3e3e3;
+    height: 144px;
+    background: #e3e3e3;
 }
 
 .footer ul {
-	list-style-type: none;
-	width: 689px;
-	margin: 0 auto;
-	padding: 0;
+    list-style-type: none;
+    width: 689px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .footer li {
-	display: inline-block;
-	margin-left: 24px;
-	line-height: 144px;
+    display: inline-block;
+    margin-left: 24px;
+    line-height: 144px;
 }
 
 .footer a {
     display: block;
     cursor: url(../img/cursor.png), auto;
-	text-decoration: none;
-	color: #848484;
+    text-decoration: none;
+    color: #848484;
 }
 
 .footer a:hover {
@@ -531,7 +539,7 @@ textarea {
 }
 
 .footer li:first-child {
-	margin-left:0;
+    margin-left:0;
 }
 
 .contact:before {
@@ -539,65 +547,65 @@ textarea {
     display: block;
     float: left;
     padding-right: 5px;
-	font-family: "fontello";
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
 }
 
 .download:before {
     content: "\e800";
     display: block;
     float: left;
-	padding-right: 5px;
-	font-family: "fontello";
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
+    padding-right: 5px;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
 }
 
 .press:before {
     content: "\e803";
     display: block;
     float: left;
-	padding-right: 5px;
-	font-family: "fontello";
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
+    padding-right: 5px;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
 }
 
 .email:before {
     content: "\e801";
     display: block;
     float: left;
-	padding-right: 5px;
-	font-family: "fontello";
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
+    padding-right: 5px;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
 }
 
 .support:before {
     content: "\e804";
     display: block;
     float: left;
-	padding-right: 5px;
-	font-family: "fontello";
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
+    padding-right: 5px;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
 }
 
 .policy:before {
     content: "\e802";
     display: block;
     float: left;
-	padding-right: 5px;
-	font-family: "fontello";
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
+    padding-right: 5px;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
 }
 
 
