@@ -122,7 +122,7 @@ textarea {
 }
 
 .head-text{
-    margin: 17% 0 0 5.8%;
+    margin: 200px 0 0 144px;
 	color: #ffffff;
 }
 
@@ -148,8 +148,8 @@ textarea {
 .header ul{
     display: table;
 	padding: 0;
+    margin: 11px 0 0 128px;
     border-spacing: 17px;
-    margin: 8px 0 0 53px;
 }
 
 li.mobile{
@@ -178,15 +178,15 @@ li.mobile:hover{
 
 .phones a{
     text-decoration: none;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
 }
 
 a.apple:after{
     content: "\e808";
     display: block;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
     speak: none;
     color: #ffffff;
 }
@@ -194,10 +194,6 @@ a.apple:after{
 a.android:after{
     content: "\e807";
     display: block;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
     speak: none;
     color: #ffffff;
 }
@@ -205,9 +201,6 @@ a.android:after{
 a.windows:after{
     content: "\e806";
     display: block;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
     font-size: 23px;
     speak: none;
     color: #ffffff;
@@ -241,7 +234,11 @@ a.windows:after{
 }
 
 .first h2{
-	margin-top: 20px;
+    margin: 20px 0 0 0;
+}
+
+.first p{
+    width: 300px;
 }
 
 .theme:before{
@@ -322,8 +319,11 @@ a.windows:after{
 	width: 550px;
 }
 
-.second-content video{
-	float: right;
+.player{
+    float: right;
+    width: 571px;
+    height: 350px;
+    margin: 68px 8px 0 0;
 }
 
 .second-content form{
@@ -342,17 +342,17 @@ a.windows:after{
 	color: #ffffff;
 }
 
-.email{
-	width: 270px;
-	height: 51px;
+.form-email{
+    width: 311px;
+    height: 59px;
     padding-left: 30px;
-    margin-right: -4.5px;
+    margin: 0 -4.5px 0 10px;
 	border: 1px transparent solid;
 	border-radius: 15px 0 0 15px;
 }
 
 .third-content{
-	height: 550px;
+	height: 465px;
 }
 
 .third-content p{
@@ -377,13 +377,14 @@ a.windows:after{
 }
 
 .third-content h2{
-    margin-top: 50px;
+    margin-top: 73px;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
 }
 
 .third-content h3{
+    margin-top: 25px;
     text-align: center;
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
@@ -403,9 +404,9 @@ a.windows:after{
 	list-style-type: none;
 	display: table;
     width: auto;
-    margin: 40px auto 0;
+    margin: 9px auto 0;
 	padding: 0;
-	border-spacing: 10px;
+	border-spacing: 16px;
 }
 
 .socials{
@@ -503,7 +504,7 @@ a.youtube:after{
 
 
 .footer{
-	height: 130px;
+	height: 144px;
 	background: #e3e3e3;
 }
 
@@ -516,8 +517,8 @@ a.youtube:after{
 
 .footer li{
 	display: inline-block;
-	margin-left: 30px;
-	line-height: 130px;
+	margin-left: 24px;
+	line-height: 148px;
 }
 
 .footer a{
