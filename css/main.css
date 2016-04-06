@@ -115,13 +115,15 @@ body {
 h2,
 h3 {
     font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
     color: #000;
 }
 
 p {
     font-family: "Arial", sans-serif;
     font-size: 16px;
-    margin-bottom: 0;
+    margin: 0;
     color: #848484;
 }
 
@@ -148,22 +150,22 @@ p {
 /* header */
 
 .header {
-    height: 677px;
+    height: 600px;
     width: 100%;
     background-image: url("../img/hand.png"),url("../img/header_image.png");
-    background-position: 92% bottom, left top;
-    background-size: 494px 568px, 100% 100%;
+    background-position: 85% bottom, left top;
+    background-size: auto auto, 100% 100%;
     background-repeat: no-repeat, no-repeat;
-    border-top: 10px #d4213d solid;
+    border-top: 10px solid #d4213d;
 }
 
 .head-text {
-    margin: 194px 0 0 70px;
-    letter-spacing: 1.25px;
+    margin: 170px 0 0 126px;
     color: #fff;
 }
 
 .head-text h1 {
+    margin: 0;
     font-family: "Gochi Hand", cursive;
     font-size: 60px;
 }
@@ -175,6 +177,7 @@ p {
 
 .head-text p {
     width: 433px;
+    margin-top: 25px;
     line-height: 36px;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
@@ -185,14 +188,14 @@ p {
 .platforms {
     display: block;
     padding: 0;
-    margin: 29px 0 0 2px;
+    margin: 20px  0 0 0px;
 }
 
 .platform {
     display: inline-block;
-    height: 59px;
-    width: 59px;
-    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
     line-height: 56px;
     text-align: center;
     background: rgba(255,255,255,0.5);
@@ -222,18 +225,20 @@ p {
                                     CONTENT
    ========================================================================== */
 
+.features {
+    height: 343px;
+}
 .feature-list {
-    padding: 76px 0 43px;
+    padding: 74px 0 0;
     text-align: center;
     font-size: 22px;
     font-weight: 400;
 }
 
-
 .feature {
     display: inline-block;
-    width: 331px;
-    margin-left: 97px;
+    width: 312px;
+    margin-left: 112px;
 }
 
 .feature:first-of-type {
@@ -242,29 +247,30 @@ p {
 
 .feature h2 {
     margin: 28px 0 0 0;
+
+    font-weight: 400;
 }
 
 .feature p {
     margin: 21px auto;
-    padding: 0 8px;
+    padding: 0;
     line-height: 26px;
 }
 
 .feature:before {
     display: block;
-    height: 107px;
-    margin: -9px 112px;
+    height: 99px;
+    margin: -7px 107px;
     line-height: 107px;
     font-size: 50px;
     speak: none;
     background: #d4213d;
-    border: none;
     border-radius: 54px;
 }
 
 .get-notified {
-    padding-top: 68px;
-    height: 408px;
+    padding: 38px 0 0 22px;
+    height: 390px;
     background-color: #e3e3e3;
 }
 
@@ -276,7 +282,6 @@ p {
 
 .newsletter h2 {
     line-height: 26px;
-    font-size: 22px;
 }
 
 .newsletter p {
