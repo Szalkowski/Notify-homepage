@@ -447,15 +447,15 @@ width: 140px;
 
 .links li a {
     display: block;
+    height: 75px;
     cursor: url(../img/cursor.png), auto;
     text-decoration: none;
     color: #848484;
 }
 
 .links li a:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid #848484;
 }
-
 
 .links li:first-child {
     margin-left:0;
