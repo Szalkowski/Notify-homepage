@@ -1,17 +1,6 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 @import url(https://fonts.googleapis.com/css?family=Gochi+Hand);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
-@font-face {
-  font-family: 'fontello';
-  src: url('../font/fontello.eot?40548114');
-  src: url('../font/fontello.eot?40548114#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?40548114') format('woff2'),
-       url('../font/fontello.woff?40548114') format('woff'),
-       url('../font/fontello.ttf?40548114') format('truetype'),
-       url('../font/fontello.svg?40548114#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -126,11 +115,13 @@ body {
 h2,
 h3 {
     font-family: "Roboto", sans-serif;
+    color: #000;
 }
 
 p {
     font-family: "Arial", sans-serif;
     font-size: 16px;
+    color: #848484;
 }
 
 .icon {
@@ -140,7 +131,10 @@ p {
     speak: none;
     color: #fff;
 }
-
+.icon-links {
+    margin-right: 5px;
+    color: #848484;
+}
 .wrapper {
     width: 1200px;
     margin: 0 auto;
@@ -235,9 +229,10 @@ p {
 .feature {
     display: inline-block;
     width: 331px;
+    margin-left: 97px;
 }
 
-.feature:first-child {
+.feature:first-of-type {
     margin-left: 0;
 }
 
@@ -253,7 +248,7 @@ p {
 
 .feature:before {
     display: block;
-    height: 97px;
+    height: 99px;
     margin: 0 116px;
     line-height: 96px;
     font-size: 50px;
@@ -262,18 +257,6 @@ p {
     background: #d4213d;
     border: none;
     border-radius: 50px;
-}
-
-.theme:before {
-    content: "\e80b";
-}
-
-.design:before {
-    content: "\e809";
-}
-
-.audience:before {
-    content: "\e80a";
 }
 
 .get-notified {
@@ -429,15 +412,17 @@ p {
 
 .links {
     list-style-type: none;
-    width: 689px;
+    width: 670px;
     margin: 0 auto;
     padding: 0;
+
 }
 
 .links li {
     display: inline-block;
     margin-left: 24px;
     line-height: 144px;
+
 }
 
 .links li a {
@@ -447,42 +432,12 @@ p {
     color: #848484;
 }
 
-.links li a:before {
-    display: block;
-    float: left;
-    padding-right: 5px;
-}
-
 .links li a:hover {
     text-decoration: underline;
 }
 
 .links li:first-child {
     margin-left:0;
-}
-
-.contact:before {
-    content: "\e805";
-}
-
-.download:before {
-    content: "\e800";
-}
-
-.press:before {
-    content: "\e803";
-}
-
-.email:before {
-    content: "\e801";
-}
-
-.support:before {
-    content: "\e804";
-}
-
-.policy:before {
-    content: "\e802";
 }
 
 
