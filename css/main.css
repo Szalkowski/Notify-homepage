@@ -121,6 +121,7 @@ h3 {
 p {
     font-family: "Arial", sans-serif;
     font-size: 16px;
+    margin-bottom: 0;
     color: #848484;
 }
 
@@ -131,10 +132,12 @@ p {
     speak: none;
     color: #fff;
 }
+
 .icon-links {
     margin-right: 5px;
     color: #848484;
 }
+
 .wrapper {
     width: 1200px;
     margin: 0 auto;
@@ -169,7 +172,6 @@ p {
 
 .head-text p {
     width: 433px;
-    margin-bottom: 0;
     line-height: 36px;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
@@ -180,7 +182,7 @@ p {
 .platforms {
     display: block;
     padding: 0;
-    margin: 11px 0 0 0;
+    margin: 29px 0 0 2px;
 }
 
 .platform {
@@ -219,7 +221,7 @@ p {
    ========================================================================== */
 
 .feature-list {
-    padding: 76px 0 96px;
+    padding: 76px 0 43px;
     text-align: center;
     font-size: 22px;
     font-weight: 400;
@@ -237,7 +239,7 @@ p {
 }
 
 .feature h2 {
-    margin: 20px 0 0 0;
+    margin: 28px 0 0 0;
 }
 
 .feature p {
@@ -248,20 +250,20 @@ p {
 
 .feature:before {
     display: block;
-    height: 99px;
-    margin: 0 116px;
-    line-height: 96px;
+    height: 107px;
+    margin: -9px 112px;
+    line-height: 107px;
     font-size: 50px;
     speak: none;
-    color: #ffffff;
+    color: #fff;
     background: #d4213d;
     border: none;
-    border-radius: 50px;
+    border-radius: 54px;
 }
 
 .get-notified {
     padding-top: 68px;
-    height: 480px;
+    height: 408px;
     background-color: #e3e3e3;
 }
 
@@ -277,7 +279,7 @@ p {
 }
 
 .newsletter p {
-    margin-bottom: 0;
+
     line-height: 29px;
 }
 
@@ -320,7 +322,7 @@ p {
 }
 
 .testimonials h2 {
-    margin-top: 61px;
+    margin-top: 64px;
     text-align: center;
     font-size: 24px;
 }
@@ -363,7 +365,7 @@ p {
 
 .social-links {
     display: table;
-    margin: 14px auto 0;
+    margin: 16px auto 0;
     padding: 0;
     list-style-type: none;
     border-spacing: 16px;
