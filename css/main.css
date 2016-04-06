@@ -108,7 +108,7 @@ textarea {
 body {
     font-family: "Arial", sans-serif;
     font-size: 16px;
-    color: #848484;
+    color: #fff;
 }
 
 /* typography */
@@ -124,6 +124,8 @@ p {
     margin-bottom: 0;
     color: #848484;
 }
+
+/* icons */
 
 .icon {
     font-family: "fontello";
@@ -143,6 +145,7 @@ p {
     margin: 0 auto;
 }
 
+/* header */
 
 .header {
     height: 677px;
@@ -187,14 +190,14 @@ p {
 
 .platform {
     display: inline-block;
-    height: 57px;
+    height: 59px;
     width: 59px;
     margin-right: 10px;
     line-height: 56px;
     text-align: center;
     background: rgba(255,255,255,0.5);
     background-size: 50px 50px;
-    border-radius: 28px;
+    border-radius: 29px;
 }
 
 .platform:hover {
@@ -210,7 +213,6 @@ p {
 
 .platform a:after {
     display: block;
-
 }
 
 
@@ -255,7 +257,6 @@ p {
     line-height: 107px;
     font-size: 50px;
     speak: none;
-    color: #fff;
     background: #d4213d;
     border: none;
     border-radius: 54px;
@@ -296,7 +297,6 @@ p {
     background-color: #d4213d;
     border: none;
     border-radius: 0 10px 10px 0;
-    color: #ffffff;
 }
 
 .form-email {
@@ -315,6 +315,8 @@ p {
 
 .player {
     height: 350px;
+    width: 500px;
+    margin-left: 70px;
 }
 
 .testimonials {
@@ -387,20 +389,14 @@ p {
     display: block;
     cursor: url(../img/cursor.png), auto;
     text-decoration: none;
+    font-size: 20px;
+    color: #fff;
 }
 
 .socials:hover {
     background: #df596e;
     transform: rotateY(360deg);
 }
-
-.socials a:after {
-    display: block;
-    font-size: 20px;
-    speak: none;
-    color: #ffffff;
-}
-
 
 /* ==========================================================================
                                     FOOTER
@@ -424,7 +420,6 @@ p {
     display: inline-block;
     margin-left: 24px;
     line-height: 144px;
-
 }
 
 .links li a {
