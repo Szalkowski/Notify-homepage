@@ -188,14 +188,14 @@ p {
 .platforms {
     display: block;
     padding: 0;
-    margin: 20px  0 0 0px;
+    margin: 21px 0 0 3px;
 }
 
 .platform {
     display: inline-block;
-    height: 50px;
-    width: 50px;
-    margin-right: 15px;
+    height: 51px;
+    width: 51px;
+    margin-right: 13px;
     line-height: 56px;
     text-align: center;
     background: rgba(255,255,255,0.5);
@@ -226,7 +226,7 @@ p {
    ========================================================================== */
 
 .features {
-    height: 343px;
+    height: 337px;
 }
 .feature-list {
     padding: 74px 0 0;
@@ -246,22 +246,21 @@ p {
 }
 
 .feature h2 {
-    margin: 28px 0 0 0;
-
+    margin: 39px 0 0 -12px;
     font-weight: 400;
 }
 
 .feature p {
-    margin: 21px auto;
+    margin: 17px auto;
     padding: 0;
     line-height: 26px;
 }
 
 .feature:before {
     display: block;
-    height: 99px;
-    margin: -7px 107px;
-    line-height: 107px;
+    height: 95px;
+    margin: -13px 107px;
+    line-height: 95px;
     font-size: 50px;
     speak: none;
     background: #d4213d;
@@ -270,7 +269,7 @@ p {
 
 .get-notified {
     padding: 38px 0 0 22px;
-    height: 390px;
+    height: 387px;
     background-color: #e3e3e3;
 }
 
@@ -286,7 +285,7 @@ p {
 
 .newsletter p {
 
-    line-height: 29px;
+    line-height: 25px;
 }
 
 .newsletter form {
@@ -294,21 +293,23 @@ p {
 }
 
 .send {
-    width: 157px;
-    height: 61px;
-    text-align: center;
+width: 140px;
+    height: 55px;
+    padding: 0px 13px 0 0;
+    line-height: 55px;
     font-family: "Myriad Pro", sans-serif;
     font-size: 22px;
     background-color: #d4213d;
     border: none;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
 }
 
 .form-email {
-    width: 311px;
-    height: 59px;
-    padding-left: 30px;
-    margin: 0 -4.5px 0 0;
+    width: 279px;
+    height: 55px;
+    padding: 0 0 0 25px;
+    letter-spacing: 1px;
+    margin: 0px -4.5px 0 0;
     border: none;
     border-radius: 15px 0 0 15px;
 }
@@ -319,24 +320,24 @@ p {
 }
 
 .player {
-    height: 350px;
+    height: 308px;
     width: 500px;
-    margin-left: 70px;
+    margin: 20px 0 0 50px;
 }
 
 .testimonials {
-    height: 465px;
+    height: 407px;
 }
 
 .testimonials h2 {
-    margin-top: 64px;
+    margin-top: 48px;
     text-align: center;
     font-size: 24px;
 }
 
 .testimonials h3 {
-    margin-top: 25px;
-    text-align: center;
+    width: 100px;
+    margin: 16px auto;
     font-size: 18px;
 }
 
@@ -350,20 +351,19 @@ p {
 }
 
 .testimonials p:nth-of-type(2) {
-    width: 785px;
-    margin: 20px auto 0;
+    width: 557px;
+    margin: 15px auto 0;
     line-height: 19px;
     text-align: center;
     font-family: "Helvetica Neue", sans-serif;
     font-style: normal;
-    font-size: 18px;
-    color: #848484;
+    font-size: 16px;
 }
 
 .faces {
     position: relative;
     width: 900px;
-    margin: 29px auto 0;
+    margin: 23px auto 0;
 }
 
 .faces img {
@@ -372,10 +372,10 @@ p {
 
 .social-links {
     display: table;
-    margin: 16px auto 0;
+    margin: 15px auto 0;
     padding: 0;
     list-style-type: none;
-    border-spacing: 16px;
+    border-spacing: 10px;
 }
 
 .socials {
@@ -415,7 +415,7 @@ p {
 
 .links {
     list-style-type: none;
-    width: 670px;
+    width: 580px;
     margin: 0 auto;
     padding: 0;
 
@@ -423,7 +423,7 @@ p {
 
 .links li {
     display: inline-block;
-    margin-left: 24px;
+    margin-left: 10px;
     line-height: 144px;
 }
 
