@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/fontello.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -25,28 +26,42 @@
                 <div class="head-text">
                     <h1>Notify</h1>
                     <p>A great new solution that is going to change your life</p>
+                    <ul class="platforms">
+                        <li class="platform">
+                            <a class="apple" href="#" title="MacOS">
+                                <i class="icon icon-apple"></i>
+                            </a>
+                        </li>
+                        <li class="platform">
+                            <a class="android" href="#" title="Android">
+                                <i class="icon icon-android"></i>
+                            </a>
+                        </li>
+                        <li class="platform">
+                            <a class="windows" href="#" title="Windows Phone">
+                                <i class="icon icon-windows"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="platforms">
-                    <li class="platform"><a class="apple" href="#" title="MacOS"></a></li>
-                    <li class="platform"><a class="android" href="#" title="Android"></a></li>
-                    <li class="platform"><a class="windows" href="#" title="Windows Phone"></a></li>
-                </ul>
             </div>
         </header>
         <main class="main">
             <div class="features">
                 <div class="wrapper">
-                    <div class="feature theme">
-                        <h2>Editable Theme</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
-                    </div>
-                    <div class="feature design">
-                        <h2>Flat Design</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
-                    </div>
-                    <div class="feature audience">
-                        <h2>Reach Your Audience</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+                    <div class="feature-list">
+                        <div class="feature theme">
+                            <h2>Editable Theme</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+                        </div>
+                        <div class="feature design">
+                            <h2>Flat Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+                        </div>
+                        <div class="feature audience">
+                            <h2>Reach Your Audience</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -60,8 +75,10 @@
                             <button type="submit" class="send">Notify</button>
                         </form>
                     </div>
-                    <div class="player">
-                        <iframe src="https://www.youtube.com/embed/xOHyN0aBzPc" frameborder="0" allowfullscreen></iframe>
+                    <div class="media">
+                        <video class="player" src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls>
+                        Your browser does not support the <code>video</code> element.
+                    </video>
                     </div>
                 </div>
             </div>
@@ -70,46 +87,70 @@
                     <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut.”</p>
                     <h3>Jane Hunt</h3>
                     <div class="faces">
-                        <div class="photos">
-                            <div><img src="img/photo1.png" alt="twarz kobiety" /></div>
-                            <div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
-                            <div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
-                            <div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
-                            <div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
-                            <div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
-                            <div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo3.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo4.png" alt="twarze starszej pary" /></div>
-                            <div><img src="img/photo2.png" alt="twarz mężczyzny" /></div>
-                            <div><img src="img/photo5.png" alt="twarz kobiety" /></div>
-                        </div>
+                        <ul class="photos">
+                            <li><img src="img/photo1.png" alt="twarz kobiety" /></li>
+                            <li><img src="img/photo2.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo3.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo4.png" alt="twarze starszej pary" /></li>
+                            <li><img src="img/photo2.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo3.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo4.png" alt="twarze starszej pary" /></li>
+                            <li><img src="img/photo2.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo3.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo4.png" alt="twarze starszej pary" /></li>
+                            <li><img src="img/photo2.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo3.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo4.png" alt="twarze starszej pary" /></li>
+                            <li><img src="img/photo2.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo3.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo4.png" alt="twarze starszej pary" /></li>
+                            <li><img src="img/photo2.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo3.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo4.png" alt="twarze starszej pary" /></li>
+                            <li><img src="img/photo2.png" alt="twarz mężczyzny" /></li>
+                            <li><img src="img/photo5.png" alt="twarz kobiety" /></li>
+                        </ul>
                     </div>
                     <h2>Say Hi &#38; Get In Touch</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.</p>
-                    <ul>
-                        <li class="socials"><a class="twitter" href="#" title="twitter"></a></li>
-                        <li class="socials"><a class="facebook" href="#" title="facebook"></a></li>
-                        <li class="socials"><a class="pin" href="#" title="pinterest"></a></li>
-                        <li class="socials"><a class="google" href="#" title="google plus"></a></li>
-                        <li class="socials"><a class="linked" href="#" title="linkedin"></a></li>
-                        <li class="socials"><a class="youtube" href="#" title="youtube"></a></li>
+                    <ul class="social-links">
+                        <li class="socials">
+                            <a class="twitter" href="#" title="twitter">
+                                <i class="icon icon-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="socials">
+                             <a class="facebook" href="#" title="facebook">
+                                <i class="icon icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="socials">
+                            <a class="pin" href="#" title="pinterest">
+                                <i class="icon icon-pinterest-circled"></i>
+                            </a>
+                        </li>
+                        <li class="socials">
+                            <a class="google" href="#" title="google plus">
+                                <i class="icon icon-gplus"></i>
+                            </a>
+                        </li>
+                        <li class="socials">
+                            <a class="linked" href="#" title="linkedin">
+                                <i class="icon icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="socials">
+                            <a class="youtube" href="#" title="youtube">
+                                <i class="icon icon-youtube"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </main>
         <footer class="footer">
             <div class="wrapper">
-                <ul>
+                <ul class="links">
                     <li><a href="#" class="contact" title="skontaktuj się z nami">Contact</a></li>
                     <li><a href="#" class="download" title="centrum pobierania">Download</a></li>
                     <li><a href="#" class="press" title="dla prasy">Press</a></li>

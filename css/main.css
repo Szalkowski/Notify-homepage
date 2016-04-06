@@ -115,21 +115,37 @@ textarea {
                                     HEADER
    ========================================================================== */
 
-
-.wrapper {
-    width: 1200px;
-    margin: 0 auto;
+/* body styles */
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #848484;
 }
 
-h2, h3 {
+/* typography */
+h2,
+h3 {
     font-family: "Roboto", sans-serif;
 }
 
 p {
     font-family: "Arial", sans-serif;
     font-size: 16px;
-    color: #848484;
 }
+
+.icon {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    color: #fff;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 
 .header {
     height: 677px;
@@ -138,13 +154,13 @@ p {
     background-position: 92% bottom, left top;
     background-size: 494px 568px, 100% 100%;
     background-repeat: no-repeat, no-repeat;
-    border-top: 10px red solid;
+    border-top: 10px #d4213d solid;
 }
 
 .head-text {
     margin: 194px 0 0 70px;
     letter-spacing: 1.25px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .head-text h1 {
@@ -154,7 +170,7 @@ p {
 
 .head-text h1:after {
     content: ".";
-    color: red;
+    color: #d4213d;
 }
 
 .head-text p {
@@ -164,27 +180,25 @@ p {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 500;
-    color: #ffffff;
+    color: #fff;
 }
 
 .platforms {
-    display: table;
+    display: block;
     padding: 0;
-    margin: 11px 0 0 52px;
-    border-spacing: 17px;
+    margin: 11px 0 0 0;
 }
 
 .platform {
-    display: table-cell;
+    display: inline-block;
     height: 57px;
     width: 59px;
-    margin-left: 0;
-    vertical-align: middle;
+    margin-right: 10px;
+    line-height: 56px;
     text-align: center;
     background: rgba(255,255,255,0.5);
     background-size: 50px 50px;
     border-radius: 28px;
-
 }
 
 .platform:hover {
@@ -194,52 +208,33 @@ p {
 .platform a {
     display: block;
     text-decoration: none;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
     font-size: 28px;
     cursor: url(../img/cursor.png), auto;
 }
 
 .platform a:after {
     display: block;
-    speak: none;
-    color: #ffffff;
+
 }
 
-.apple:after {
-    content: "\e808";
-}
 
-.android:after {
-    content: "\e807";
-}
-
-.windows:after {
-    content: "\e806";
-}
 
 
 /* ==========================================================================
                                     CONTENT
    ========================================================================== */
 
-
-.features {
-    min-height: 377px;
+.feature-list {
+    padding: 76px 0 96px;
     text-align: center;
     font-size: 22px;
     font-weight: 400;
 }
 
-.features p {
-    line-height: 26px;
-}
 
 .feature {
     display: inline-block;
     width: 331px;
-    margin: 76px 0 0 96px;
 }
 
 .feature:first-child {
@@ -251,8 +246,9 @@ p {
 }
 
 .feature p {
-    width: 312px;
     margin: 21px auto;
+    padding: 0 8px;
+    line-height: 26px;
 }
 
 .feature:before {
@@ -260,9 +256,6 @@ p {
     height: 97px;
     margin: 0 116px;
     line-height: 96px;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
     font-size: 50px;
     speak: none;
     color: #ffffff;
@@ -270,6 +263,7 @@ p {
     border: none;
     border-radius: 50px;
 }
+
 .theme:before {
     content: "\e80b";
 }
@@ -283,40 +277,28 @@ p {
 }
 
 .get-notified {
+    padding-top: 68px;
     height: 480px;
     background-color: #e3e3e3;
 }
 
-.get-notified h2 {
-    padding: 47px 0 0 0;
-    line-height: 26px;
-    font-size: 22px;
-}
-
-.get-notified p {
-    margin-bottom: 0;
-    line-height: 29px;
-}
 
 .newsletter {
     float: left;
     width: 550px;
 }
 
-.player {
-    float: right;
-    width: 571px;
-    height: 350px;
-    margin: 68px 0 0 0;
+.newsletter h2 {
+    line-height: 26px;
+    font-size: 22px;
 }
 
-.player iframe {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+.newsletter p {
+    margin-bottom: 0;
+    line-height: 29px;
 }
 
-.get-notified form {
+.newsletter form {
     padding-top: 24px;
 }
 
@@ -341,8 +323,29 @@ p {
     border-radius: 15px 0 0 15px;
 }
 
+.media {
+    float: right;
+    width: 571px;
+}
+
+.player {
+    height: 350px;
+}
+
 .testimonials {
     height: 465px;
+}
+
+.testimonials h2 {
+    margin-top: 61px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.testimonials h3 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .testimonials p {
@@ -365,14 +368,6 @@ p {
     color: #848484;
 }
 
-
-
-.testimonials h3 {
-    margin-top: 25px;
-    text-align: center;
-    font-size: 18px;
-}
-
 .faces {
     position: relative;
     width: 900px;
@@ -383,13 +378,7 @@ p {
     width: 50px;
 }
 
-.testimonials h2 {
-    margin-top: 61px;
-    text-align: center;
-    font-size: 24px;
-}
-
-.testimonials ul {
+.social-links {
     display: table;
     margin: 14px auto 0;
     padding: 0;
@@ -422,36 +411,9 @@ p {
 
 .socials a:after {
     display: block;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     speak: none;
     color: #ffffff;
-}
-
-.twitter:after {
-    content: "\e80c";
-}
-
-.facebook:after {
-    content: "\e80d";
-}
-
-.pin:after {
-    content: "\e80e";
-}
-
-.google:after {
-    content: "\e80f";
-}
-
-.linked:after {
-    content: "\e810";
-}
-
-.youtube:after {
-    content: "\e811";
 }
 
 
@@ -465,42 +427,38 @@ p {
     background: #e3e3e3;
 }
 
-.footer ul {
+.links {
     list-style-type: none;
     width: 689px;
     margin: 0 auto;
     padding: 0;
 }
 
-.footer li {
+.links li {
     display: inline-block;
     margin-left: 24px;
     line-height: 144px;
 }
 
-.footer a {
+.links li a {
     display: block;
     cursor: url(../img/cursor.png), auto;
     text-decoration: none;
     color: #848484;
 }
 
-.footer a:hover {
-    text-decoration: underline;
-}
-
-.footer li:first-child {
-    margin-left:0;
-}
-
-.footer a:before {
+.links li a:before {
     display: block;
     float: left;
     padding-right: 5px;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
+}
+
+.links li a:hover {
+    text-decoration: underline;
+}
+
+.links li:first-child {
+    margin-left:0;
 }
 
 .contact:before {
@@ -696,4 +654,16 @@ p {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.icon {
+
+}
+.icon-apple {
+
+}
+
+
+.icon-size-l {
+    font
 }
